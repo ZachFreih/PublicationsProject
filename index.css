@@ -1,0 +1,129 @@
+h1 {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Corbel;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: black;
+    padding: 6px;
+    font-family: Corbel;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+p {
+    color: black;
+    padding: 7px 8px;
+    font-family: Corbel;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+body {
+    margin: none;
+}
+
+ul, .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a, #dropbtn, #dropbtn2 {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Corbel;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+.header {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#logo {
+    font-weight: 800;
+}
+
+.hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hover:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hover:hover:before, .hover:focus:before, .hover:active:before {
+  left: 0;
+  right: 0;
+}
+
+.enlarge {
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #2098D1;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto auto;
+    position: relative;
+}
