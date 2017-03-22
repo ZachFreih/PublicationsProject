@@ -118,12 +118,10 @@ li.dropdown {
 
 .enlarge {
     height: 350px;
-    width: 350px;
-    border-radius: 15px;
+    width: 50%;
     background-color: #2098D1;
     align-items: center;
     align-content: center;
-    text-align: center;
-    margin: auto auto;
-    position: relative;
+    position: fixed;
+    margin: 0 auto;
 }
