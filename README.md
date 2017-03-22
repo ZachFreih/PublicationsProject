@@ -1,0 +1,2 @@
+# PublicationsProject
+Class Project
